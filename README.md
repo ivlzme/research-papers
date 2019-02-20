@@ -3,6 +3,8 @@ A collection of reference papers about data race detection, partial order techni
 
 ---
 
+## Dynamic Analysis:
+
 - **Dynamic Race Prediction in Linear Time** (PLDI 2017) - Dileep Kini, Umang Mathur, Mahesh Viswanathan ([Paper](https://arxiv.org/pdf/1704.02432.pdf), [Tool](https://github.com/umangm/rapid), [RV-Predict](https://runtimeverification.com/predict/))
 
 - *[Happens-Before]* **Time, Clocks, and the Ordering of Events in a Distributed System** (1978) - Leslie Lamport ([Paper](https://lamport.azurewebsites.net/pubs/time-clocks.pdf))
@@ -21,12 +23,6 @@ OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.
 - **Maximal Sound Predictive Race Detection With Control Flow Abstraction** (PLDI 2014) - Jeff Huang, Patrick Meredith, Grigore Rosu ([Paper]())
 
 - **Stateless Model Checking Concurrent Programs with Maximal Causality Reduction** (PLDI 2015) - Jeff Huang ([Paper](https://parasol.tamu.edu/~jeff/academic/mcr.pdf))
-
-- **Concurrent Bug Patterns and How to Test Them** (IPDPS 2003) - Eitan Farchi, Yarden Nir, Shmuel Ur ([Paper](https://ieeexplore.ieee.org/document/1213511))
-
-- **Learning From Mistakes--A Comprehensive Study on Real World Concurrency Bug Characteristics** (ASPLOS 2008) - Shan Lu, Soyeon Park, Eunsoo Seo, Yuanyuan Zhou ([Paper](https://www.cs.columbia.edu/~junfeng/09fa-e6998/papers/concurrency-bugs.pdf))
-
-- **What are Race Conditions: Some Issues and Formalizations** (LOPLAS 1992) - Robert Netzer, Barton Miller ([Paper](https://www.researchgate.net/publication/2346369_What_are_Race_Conditions_-_Some_Issues_and_Formalizations))
 
 - **Data Races vs. Data Race Bugs: Telling the Difference with Portend** (ASPLOS 2012) - Baris Kasikci, Cristian ZamÞr, George Candea ([Paper](http://dslab.epfl.ch/pubs/portend.pdf))
 
@@ -50,6 +46,11 @@ OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.
 
 - **Commutativity Race Detection** (PLDI 2014) - Dimitar Dimitrov, Veselin Raychev, Martin Vechev, Eric Koskinen ([Paper](http://www.srl.inf.ethz.ch/papers/pldi14-commutativity.pdf))
 
+- **Goldilocks: A Race and Transaction-Aware Java Runtime** (PLDI 2007) - Tayfun Elmas, Shaz Qadeer, Serdar Tasiran ([Paper](https://www.cs.purdue.edu/homes/xyzhang/fall07/Papers/goldilock.pdf))
+
+- **Efficient on-the-fly data race detection in multithreaded C++ programs** (PPoPP 2003) - Eli Pozniansky	Technion, Assaf Schuster ([Paper](https://dl.acm.org/citation.cfm?id=781529))
+
+## Static Analysis:
 - **Effective Static Race Detection for Java** (PLDI 2006) - Mayur Naik, Alex Aiken, John Whaley ([Paper](https://theory.stanford.edu/~aiken/publications/papers/pldi06.pdf))
 
 - **Locksmith: Practical Static Race Detection for C** (ACM Trans. Program. Lang. Syst., 33(1):3:1–3:55, Jan. 2011) - Polyvios Pratikakis, Jeffrey S. Foster, Michael Hicks ([Paper](http://www.cs.umd.edu/~mwh/papers/locksmith-journal.pdf))
@@ -59,6 +60,14 @@ OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.
 - **RELAY: Static Race Detection on Millions of Lines of Code** (ESEC/FSE 2007) - Jan Wen Voung, Ranjit Jhala, Sorin Lerner ([Paper](https://cseweb.ucsd.edu/~lerner/papers/relay.pdf))
 
 - **ECHO: Instantaneous In Situ Race Detection in the IDE** (FSE 2016) - Sheng Zhan, Jeff Huang ([Paper](https://parasol.tamu.edu/~jeff/academic/echo.pdf))
+
+## Other:
+
+- **Concurrent Bug Patterns and How to Test Them** (IPDPS 2003) - Eitan Farchi, Yarden Nir, Shmuel Ur ([Paper](https://ieeexplore.ieee.org/document/1213511))
+
+- **Learning From Mistakes--A Comprehensive Study on Real World Concurrency Bug Characteristics** (ASPLOS 2008) - Shan Lu, Soyeon Park, Eunsoo Seo, Yuanyuan Zhou ([Paper](https://www.cs.columbia.edu/~junfeng/09fa-e6998/papers/concurrency-bugs.pdf))
+
+- **What are Race Conditions: Some Issues and Formalizations** (LOPLAS 1992) - Robert Netzer, Barton Miller ([Paper](https://www.researchgate.net/publication/2346369_What_are_Race_Conditions_-_Some_Issues_and_Formalizations))
 
 - **EffectiveSan: Type and Memory Error Detection Using Dynamically Typed C/C++** (PLDI 2018) - Gregory J. Duck, Roland H. C. Yap ([Paper](https://arxiv.org/pdf/1710.06125.pdf))
 

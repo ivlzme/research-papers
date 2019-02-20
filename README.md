@@ -30,7 +30,7 @@ OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.
 
 - **Data Races vs. Data Race Bugs: Telling the Difference with Portend** (ASPLOS 2012) - Baris Kasikci, Cristian ZamÞr, George Candea ([Paper](http://dslab.epfl.ch/pubs/portend.pdf))
 
-- **Eraser: A Dynamic Data Race Detector for Multithreaded Programs** (TOCS 1997) - authors ([Paper](http://www.cs.washington.edu/homes/tom/pubs/eraser.pdf))
+- *[Lockset discipline] ***Eraser: A Dynamic Data Race Detector for Multithreaded Programs** (TOCS 1997) - authors ([Paper](http://www.cs.washington.edu/homes/tom/pubs/eraser.pdf))
 
 - **FastTrack: Efficient and Precise Dynamic Race Detection** (PLDI 2009) - Cormac Flanagan, Stephen N. Freund ([Paper](http://slang.soe.ucsc.edu/cormac/papers/pldi09.pdf))
 

@@ -5,9 +5,24 @@ A collection of reference papers about data race detection, partial order techni
 
 - **Dynamic Race Prediction in Linear Time** (PLDI 2017) - Dileep Kini, Umang Mathur, Mahesh Viswanathan ([Paper](https://arxiv.org/pdf/1704.02432.pdf), [Tool](https://github.com/umangm/rapid), [RV-Predict](https://runtimeverification.com/predict/))
 
+- *[Happens-Before]* **Time, Clocks, and the Ordering of Events in a Distributed System** (1978) - Leslie Lamport ([Paper](https://lamport.azurewebsites.net/pubs/time-clocks.pdf))
+
+- *[Causally Precedes]* **Sound Predictive Race Detection in Polynomial Time** (POPL 2012) - Yannis Smaragdakis, Jacob M. Evans, Caitlin Sadowski, Jaeheon Yi, Cormac Flanagan ([Paper](https://users.soe.ucsc.edu/~cormac/papers/popl12a.pdf))
+
+- *[CP-sub polynomial time]* **An Online Dynamic Analysis for Sound Predictive Data Race Detection** (Technical Report
+OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.cse.ohio-state.edu/~bond.213/raptor-tr.pdf))
+
+- **PACER: Proportional Detection of Data Races** (PLDI 2010) - Michael D. Bond, Katherine E. Coons, Kathryn S. McKinley ([Paper](http://www.cs.utexas.edu/users/mckinley/papers/pacer-pldi-2010.pdf))
+
+- **Ownership Types for Safe Programming: Preventing Data Races and Deadlocks** (OOPSLA 2002) - Chandrasekhar Boyapati, Robert Lee, Martin Rinard ([Paper](https://web.eecs.umich.edu/~bchandra/publications/oopsla02.pdf))
+
+- **What's the Optimal Performance of Precise Dynamic Race Detection?--A Redundancy Perspective** (ECOOP 2015) - Jeff Huang, Arun K. Rajagopalan ([Paper](https://parasol.tamu.edu/~jeff/academic/rex.pdf))
+
 - **Maximal Sound Predictive Race Detection With Control Flow Abstraction** (PLDI 2014) - Jeff Huang, Patrick Meredith, Grigore Rosu ([Paper]())
 
 - **Stateless Model Checking Concurrent Programs with Maximal Causality Reduction** (PLDI 2015) - Jeff Huang ([Paper](https://parasol.tamu.edu/~jeff/academic/mcr.pdf))
+
+- **Concurrent Bug Patterns and How to Test Them** (IPDPS 2003) - Eitan Farchi, Yarden Nir, Shmuel Ur ([Paper](https://ieeexplore.ieee.org/document/1213511))
 
 - **Learning From Mistakes--A Comprehensive Study on Real World Concurrency Bug Characteristics** (ASPLOS 2008) - Shan Lu, Soyeon Park, Eunsoo Seo, Yuanyuan Zhou ([Paper](https://www.cs.columbia.edu/~junfeng/09fa-e6998/papers/concurrency-bugs.pdf))
 
@@ -40,6 +55,6 @@ A collection of reference papers about data race detection, partial order techni
 ---
 
 **Sources:**
+- Dynamic Race Prediction in Linear Time References Section https://arxiv.org/pdf/1704.02432.pdf#page=12
 - http://fsl.cs.illinois.edu/index.php/Grigore_Rosu%27s_Publications
-
 - https://parasol.tamu.edu/~jeff/course/689_spring2018/papers.html

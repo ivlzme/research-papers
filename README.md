@@ -5,14 +5,18 @@ A collection of reference papers about data race detection, partial order techni
 
 ## Dynamic Analysis:
 
-- **Dynamic Race Prediction in Linear Time** (PLDI 2017) - Dileep Kini, Umang Mathur, Mahesh Viswanathan ([Paper](https://arxiv.org/pdf/1704.02432.pdf), [Tool](https://github.com/umangm/rapid), [RV-Predict](https://runtimeverification.com/predict/))
+- **High-Coverage, Unbounded Sound Predictive Race Detection** (PLDI 2018) - Jake Roemer, Kaan Genç, Michael D. Bond ([Paper](http://web.cse.ohio-state.edu/~bond.213/vindicator-pldi-2018.pdf))
 
-- *[Happens-Before]* **Time, Clocks, and the Ordering of Events in a Distributed System** (1978) - Leslie Lamport ([Paper](https://lamport.azurewebsites.net/pubs/time-clocks.pdf))
+- *[Schedulable Happens-Before]* **What Happens-After the First Race? Enhancing the Predictive Power of Happens-Before Based Dynamic Race Detection** (OOPSLA 2018) - Dileep Kini, Umang Mathur, Mahesh Viswanathan ([Paper](http://umathur3.web.engr.illinois.edu/papers/shb-oopsla2018.pdf))
+
+- *[Weak Causally Precedes]* **Dynamic Race Prediction in Linear Time** (PLDI 2017) - Dileep Kini, Umang Mathur, Mahesh Viswanathan ([Paper](https://arxiv.org/pdf/1704.02432.pdf), [Tool](https://github.com/umangm/rapid), [RV-Predict](https://runtimeverification.com/predict/))
 
 - *[Causally Precedes]* **Sound Predictive Race Detection in Polynomial Time** (POPL 2012) - Yannis Smaragdakis, Jacob M. Evans, Caitlin Sadowski, Jaeheon Yi, Cormac Flanagan ([Paper](https://users.soe.ucsc.edu/~cormac/papers/popl12a.pdf))
 
 - *[CP-sub polynomial time]* **An Online Dynamic Analysis for Sound Predictive Data Race Detection** (Technical Report
 OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.cse.ohio-state.edu/~bond.213/raptor-tr.pdf))
+
+- *[Happens-Before]* **Time, Clocks, and the Ordering of Events in a Distributed System** (1978) - Leslie Lamport ([Paper](https://lamport.azurewebsites.net/pubs/time-clocks.pdf))
 
 - **PACER: Proportional Detection of Data Races** (PLDI 2010) - Michael D. Bond, Katherine E. Coons, Kathryn S. McKinley ([Paper](http://www.cs.utexas.edu/users/mckinley/papers/pacer-pldi-2010.pdf))
 

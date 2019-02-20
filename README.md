@@ -50,6 +50,16 @@ OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.
 
 - **Commutativity Race Detection** (PLDI 2014) - Dimitar Dimitrov, Veselin Raychev, Martin Vechev, Eric Koskinen ([Paper](http://www.srl.inf.ethz.ch/papers/pldi14-commutativity.pdf))
 
+- **Effective Static Race Detection for Java** (PLDI 2006) - Mayur Naik, Alex Aiken, John Whaley ([Paper](https://theory.stanford.edu/~aiken/publications/papers/pldi06.pdf))
+
+- **Locksmith: Practical Static Race Detection for C** (ACM Trans. Program. Lang. Syst., 33(1):3:1–3:55, Jan. 2011) - Polyvios Pratikakis, Jeffrey S. Foster, Michael Hicks ([Paper](http://www.cs.umd.edu/~mwh/papers/locksmith-journal.pdf))
+
+- **Practical Static Race Detection for Java Parallel Loops** (ISSTA 2013) - Cosmin Radoi, Danny Dig ([Paper](http://dig.cs.illinois.edu/papers/Iterace.pdf))
+
+- **RELAY: Static Race Detection on Millions of Lines of Code** (ESEC/FSE 2007) - Jan Wen Voung, Ranjit Jhala, Sorin Lerner ([Paper](https://cseweb.ucsd.edu/~lerner/papers/relay.pdf))
+
+- **ECHO: Instantaneous In Situ Race Detection in the IDE** (FSE 2016) - Sheng Zhan, Jeff Huang ([Paper](https://parasol.tamu.edu/~jeff/academic/echo.pdf))
+
 - **EffectiveSan: Type and Memory Error Detection Using Dynamically Typed C/C++** (PLDI 2018) - Gregory J. Duck, Roland H. C. Yap ([Paper](https://arxiv.org/pdf/1710.06125.pdf))
 
 ---

@@ -55,6 +55,9 @@ OSU-CISRC-11/16-TR05, 2016.) - Jake Roemer, Michael D. Bond ([Paper](http://web.
 - **Efficient on-the-fly data race detection in multithreaded C++ programs** (PPoPP 2003) - Eli Pozniansky	Technion, Assaf Schuster ([Paper](https://dl.acm.org/citation.cfm?id=781529))
 
 ## Static Analysis:
+
+- **RacerD: Compositional Static Race Detection** (OOPSLA 2018) - SAM BLACKSHEAR, NIKOS GOROGIANNIS, PETER W. O’HEARN, ILYA SERGEY ([Paper](https://ilyasergey.net/papers/racerd-oopsla18-preprint.pdf))
+
 - **Effective Static Race Detection for Java** (PLDI 2006) - Mayur Naik, Alex Aiken, John Whaley ([Paper](https://theory.stanford.edu/~aiken/publications/papers/pldi06.pdf))
 
 - **Locksmith: Practical Static Race Detection for C** (ACM Trans. Program. Lang. Syst., 33(1):3:1–3:55, Jan. 2011) - Polyvios Pratikakis, Jeffrey S. Foster, Michael Hicks ([Paper](http://www.cs.umd.edu/~mwh/papers/locksmith-journal.pdf))
